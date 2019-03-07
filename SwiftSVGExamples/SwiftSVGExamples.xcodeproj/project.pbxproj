@@ -422,7 +422,7 @@
 					8AC4DBBC1CB37DB800137DC9 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = L2JNG48FS5;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					8AC4DBD21CB37DC600137DC9 = {
@@ -607,7 +607,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
@@ -627,7 +627,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
@@ -734,7 +734,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.straussmade.SwiftSVGExampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -749,7 +750,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.straussmade.SwiftSVGExampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -765,7 +767,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.straussmade.SwiftSVGExampleMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -781,7 +783,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.straussmade.SwiftSVGExampleMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

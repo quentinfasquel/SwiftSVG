@@ -106,7 +106,6 @@
 		381E99AF1EF8A55000839918 /* MoveToTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99AE1EF8A55000839918 /* MoveToTests.swift */; };
 		381E99B11EF8AFE500839918 /* PathCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99B01EF8AFE500839918 /* PathCommand.swift */; };
 		381E99B21EF8B30F00839918 /* PathCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99B01EF8AFE500839918 /* PathCommand.swift */; };
-		381E99B41EF8C72900839918 /* CGPathPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99B31EF8C72900839918 /* CGPathPoints.swift */; };
 		381E99B61EF8CCCC00839918 /* PathDLexerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99B51EF8CCCC00839918 /* PathDLexerTests.swift */; };
 		381E99B81EF8D26E00839918 /* CurveToTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99B71EF8D26E00839918 /* CurveToTests.swift */; };
 		381E99BB1EF9856B00839918 /* ClosePathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99BA1EF9856B00839918 /* ClosePathTests.swift */; };
@@ -129,8 +128,11 @@
 		39B8D8A71B3C32DD009DAF60 /* String+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E245B691AAE383200472F5A /* String+Subscript.swift */; };
 		39B8D8A91B3C32DD009DAF60 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E245BDA1AAE3FE000472F5A /* Stack.swift */; };
 		39B8D8AA1B3C32DD009DAF60 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E245B6A1AAE383200472F5A /* UIColor+Extensions.swift */; };
+		66F9844B20EF511F00A2CBEF /* Unown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F9844A20EF511F00A2CBEF /* Unown.swift */; };
+		66F9844C20EF532600A2CBEF /* Unown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F9844A20EF511F00A2CBEF /* Unown.swift */; };
 		8AC4DBEA1CB37EA700137DC9 /* CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4DBE91CB37EA700137DC9 /* CrossPlatform.swift */; };
 		A738B2921FD252A9001CF969 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738B2911FD252A9001CF969 /* Identifiable.swift */; };
+		D9870F27216628A900B47813 /* CGPathPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99B31EF8C72900839918 /* CGPathPoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,6 +223,7 @@
 		39B8D88C1B3C3283009DAF60 /* SwiftSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B8D88F1B3C3283009DAF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../SwiftSVGFramework/Info.plist; sourceTree = "<group>"; };
 		39B8D8901B3C3283009DAF60 /* SwiftSVGFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftSVGFramework.h; sourceTree = "<group>"; };
+		66F9844A20EF511F00A2CBEF /* Unown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unown.swift; sourceTree = "<group>"; };
 		8AC4DBE91CB37EA700137DC9 /* CrossPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossPlatform.swift; sourceTree = "<group>"; };
 		9E245B691AAE383200472F5A /* String+Subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Subscript.swift"; sourceTree = "<group>"; };
 		9E245B6A1AAE383200472F5A /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
@@ -332,6 +335,7 @@
 				9E245BDA1AAE3FE000472F5A /* Stack.swift */,
 				176BC9F31EE62B6100F7B54C /* String+Trim.swift */,
 				9E245B6A1AAE383200472F5A /* UIColor+Extensions.swift */,
+				66F9844A20EF511F00A2CBEF /* Unown.swift */,
 			);
 			name = Helpers;
 			path = SVG/Helpers;
@@ -559,7 +563,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Strauss LLC";
 				TargetAttributes = {
 					176BC98F1EE474D100F7B54C = {
@@ -568,7 +572,7 @@
 					};
 					39B8D88B1B3C3283009DAF60 = {
 						CreatedOnToolsVersion = 6.3.2;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -633,6 +637,7 @@
 				176BC9AA1EE486BC00F7B54C /* SVGRootElement.swift in Sources */,
 				38048F411F24214400179C95 /* SVGView.swift in Sources */,
 				38048F221F23DD6100179C95 /* SVGLineTests.swift in Sources */,
+				D9870F27216628A900B47813 /* CGPathPoints.swift in Sources */,
 				381E99BF1EF9D21500839918 /* VerticalLineToTests.swift in Sources */,
 				176BC9EB1EE51B1700F7B54C /* SVGParserSupportedElements.swift in Sources */,
 				381E99AA1EF801BB00839918 /* LineToTests.swift in Sources */,
@@ -652,6 +657,7 @@
 				38048F431F24214400179C95 /* UIView+SVG.swift in Sources */,
 				381E99BD1EF9D05800839918 /* HorizontalLineToTests.swift in Sources */,
 				3807CCEB1F286B1B00E78314 /* DelaysApplyingAttributes.swift in Sources */,
+				66F9844C20EF532600A2CBEF /* Unown.swift in Sources */,
 				38E2A7A11FD33AA4003DEFBB /* Identifiable.swift in Sources */,
 				38048F1E1F23DD1E00179C95 /* SVGEllipseTests.swift in Sources */,
 				38048F241F23DD7D00179C95 /* SVGPathTests.swift in Sources */,
@@ -675,7 +681,6 @@
 				176BC9E41EE51AF600F7B54C /* SVGEllipse.swift in Sources */,
 				176BC9DB1EE5198800F7B54C /* UIColor+Extensions.swift in Sources */,
 				176BC9F91EE6313900F7B54C /* CoordinateLexer.swift in Sources */,
-				381E99B41EF8C72900839918 /* CGPathPoints.swift in Sources */,
 				381E99C11EF9D2DC00839918 /* SmoothCurveToTests.swift in Sources */,
 				387090381F0C15B400F72660 /* ParsesAsynchronously.swift in Sources */,
 				176BC9E81EE51AF600F7B54C /* SVGShapeElement.swift in Sources */,
@@ -736,6 +741,7 @@
 				3807CCF21F29940A00E78314 /* Stylable.swift in Sources */,
 				380FECF81F000AA000EDB255 /* FloatingPoint+DegreesRadians.swift in Sources */,
 				176BC9B31EE4946B00F7B54C /* SVGShapeElement.swift in Sources */,
+				66F9844B20EF511F00A2CBEF /* Unown.swift in Sources */,
 				38048F3B1F24210F00179C95 /* SVGView.swift in Sources */,
 				176BC9ED1EE5A1CD00F7B54C /* SVGGroup.swift in Sources */,
 				175093C61E6C720C00EF1853 /* SVGPath.swift in Sources */,
@@ -776,7 +782,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -800,7 +807,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
@@ -829,7 +837,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator appletvsimulator appletvos iphoneos macosx";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2,3";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -857,7 +865,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator appletvsimulator appletvos iphoneos macosx";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2,3";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -872,14 +880,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -909,9 +925,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx watchos watchsimulator appletvos appletvsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -924,14 +941,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -953,10 +978,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx watchos watchsimulator appletvos appletvsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
