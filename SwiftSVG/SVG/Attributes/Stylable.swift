@@ -32,7 +32,10 @@ import Foundation
 
 /// :nodoc:
 private struct StylableConstants {
-    static let attributesRegex = "(((\\w+)-?(\\w*)?):?([ #\\w]*\\.?\\w+))"
+    // New Regex to support `url(#id)`
+    static let attributesRegex = "(((\\w+)-?(\\w*)?):?(.*);?)"
+    // Original Regex
+//    static let attributesRegex = "(((\\w+)-?(\\w*)?):?([ #\\w]*\\.?\\w+))"
 }
 
 /**
