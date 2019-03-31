@@ -2,9 +2,58 @@
   "warnings": [
     {
       "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/CrossPlatform.swift",
-      "line": 43,
-      "symbol": "UIView.nonOptionalLayer",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "line": null,
+      "symbol": "UIBezierPath",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/CrossPlatform.swift",
+      "line": null,
+      "symbol": "UIColor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/CrossPlatform.swift",
+      "line": null,
+      "symbol": "UIView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/CrossPlatform.swift",
+      "line": null,
+      "symbol": "UIView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/CrossPlatform.swift",
+      "line": 37,
+      "symbol": "UIView",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/CrossPlatform.swift",
+      "line": 38,
+      "symbol": "UIBezierPath",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/CrossPlatform.swift",
+      "line": 39,
+      "symbol": "UIColor",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/SVG/Attributes/Identifiable.swift",
+      "line": null,
+      "symbol": "Identifiable",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -100,6 +149,13 @@
     },
     {
       "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/SVG/Helpers/Stack.swift",
+      "line": 38,
+      "symbol": "StackType.StackItem",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/SVG/Helpers/Stack.swift",
       "line": 39,
       "symbol": "StackType.items",
       "symbol_kind": "source.lang.swift.decl.var.instance",
@@ -138,6 +194,13 @@
       "line": 50,
       "symbol": "Stack.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/SVG/Helpers/Unown.swift",
+      "line": 11,
+      "symbol": "unown(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
@@ -327,13 +390,6 @@
       "line": 41,
       "symbol": "SVGLayerType.boundingBox",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/tarragon/Google Drive/CODE/iOS/SwiftSVG/SwiftSVG/SVG Extensions/UIBezierPath+SVG.swift",
-      "line": 62,
-      "symbol": "UIBezierPath.pathWithSVGURL(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     }
   ],
